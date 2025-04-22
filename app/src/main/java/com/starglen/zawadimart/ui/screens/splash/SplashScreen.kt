@@ -15,6 +15,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.navigation.ROUT_LOGIN
 import com.navigation.ROUT_START
 import com.starglen.zawadimart.R
 import com.starglen.zawadimart.ui.theme.neworange
@@ -31,7 +32,7 @@ fun SplashScreen(navController: NavController){
     val coroutine = rememberCoroutineScope()
     coroutine.launch {
         delay(2000)
-        navController.navigate(ROUT_START)
+        navController.navigate(ROUT_LOGIN)
     }
 
 

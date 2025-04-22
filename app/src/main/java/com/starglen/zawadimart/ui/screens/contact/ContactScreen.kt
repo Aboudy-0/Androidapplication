@@ -39,7 +39,7 @@ import com.navigation.ROUT_HOME
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ContactScreen(navController: NavController){
-    //Scaffold]
+    //Scaffold
 
     var selectedIndex by remember { mutableStateOf(0) }
 

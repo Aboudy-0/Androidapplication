@@ -93,7 +93,7 @@ fun Form1Screen(navController: NavController){
 
         //End of Row
 
-        Spacer(modifier = Modifier.height(30.dp))
+        Spacer(modifier = Modifier.height(30.dp)    )
 
 
         Image(
